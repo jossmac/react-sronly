@@ -1,0 +1,28 @@
+{
+  "name": "react-sronly",
+  "version": "1.0.0",
+  "description": "Improve accessibility by providing text to Screen Readers that would otherwise be derived from the surrounding interface.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jossmac/react-sronly.git"
+  },
+  "keywords": [
+    "react",
+    "sronly",
+    "react-screen-reader",
+    "react-sronly"
+  ],
+  "author": "Joss Mackison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jossmac/react-sronly/issues"
+  },
+  "homepage": "https://github.com/jossmac/react-sronly#readme",
+  "dependencies": {
+    "react": "^15.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+}
