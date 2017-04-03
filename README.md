@@ -16,14 +16,14 @@ yarn add react-sronly
 
 ```JSX
 import React from 'react';
-import SROnly from 'react-sronly';
+import AccessibleText from 'react-sronly';
  
 export default class Sample extends React.Component {
   ...
   render() {
     return (
       <span className="some-icon not-helpful-for-screenreaders" />
-      <SROnly>Accessible text only visible to Screen Readers</SROnly>
+      <AccessibleText>Accessible text only visible to Screen Readers</AccessibleText>
     );
   }
 }
